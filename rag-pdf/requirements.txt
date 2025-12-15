@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pdfplumber
+pdf2image
+pytesseract
+langchain
+openai
+langchain-google-genai
+faiss-cpu
+scikit-learn
+streamlit
+requests
+langchain-community
