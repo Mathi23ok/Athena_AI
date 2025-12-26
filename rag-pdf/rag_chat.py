@@ -1,4 +1,4 @@
-# rag_chat.py
+
 import os
 import sqlite3
 from typing import List, Tuple, Optional
@@ -142,7 +142,6 @@ def answer_question(
 
     context_text = "\n\n---\n\n".join(context_chunks)
 
-    # 3. Prompt engineering (THIS is resume-worthy)
     prompt = f"""
 You are an expert tutor.
 
@@ -170,3 +169,4 @@ Answer:
     answer = response.content.strip()
 
     return answer, sources
+
